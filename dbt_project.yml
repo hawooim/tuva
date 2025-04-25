@@ -10,7 +10,7 @@ config-version: 2
 profile: 'default'
 
 vars:
-  claims_enabled: false
+  claims_enabled: true
   cms_hcc_payment_year: 2019
   quality_measures_period_end: "2018-12-31"
 
