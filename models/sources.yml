@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: acme_claims
+    database: acme_health
+    schema: input_layer
+    tables:
+      - name: medical_claim
+      - name: pharmacy_claim
+      - name: eligibility

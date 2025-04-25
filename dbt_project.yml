@@ -2,7 +2,7 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'acme_health'
+name: 'tuva_vanilla'
 version: '1.0.0'
 config-version: 2
 
@@ -10,7 +10,7 @@ config-version: 2
 profile: 'default'
 
 vars:
-  claims_enabled: true
+  claims_enabled: false
   cms_hcc_payment_year: 2019
   quality_measures_period_end: "2018-12-31"
 
@@ -41,9 +41,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  acme_health:
-    +database: acme_health
+  tuva_vanilla:
+    +database: tuva_vanilla
     +schema: input_layer
   the_tuva_project:
-    +database: acme_health
+    +database: tuva_vanilla
 
