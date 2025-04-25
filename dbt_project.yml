@@ -11,6 +11,7 @@ profile: 'default'
 
 vars:
   claims_enabled: true
+  clinical_enabled: false
   cms_hcc_payment_year: 2019
   quality_measures_period_end: "2018-12-31"
 
